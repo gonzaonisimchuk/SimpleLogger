@@ -1,21 +1,26 @@
 
 var fs=require('fs');
 
-var fn = Date.now();
-
-console.log(fn.toString);
+var fn = Date();
 
 var fileName = fn + '.txt';
 
+var data = "---------------------------------------------------------------------";
+data += "\r\n"; // salto de linea
+data += "   SimpleLogger started at " + fn;
+data += "\r\n"; // salto de linea
+data += "---------------------------------------------------------------------";
+data += "\r\n"; // salto de linea
 
-fs.writeFile(fileName,'SimpleLogger started at ' + fn.toString(),function(error){
+
+fs.writeFile(fileName, data, function(error){
     if (error)
         console.log(error);
     else
-        console.log('El archivo fue creado');
+        /* console.log('El archivo fue creado') */;
 });
 
-console.log('última línea del programa');
+// console.log('última línea del programa');
 
 /*
 
