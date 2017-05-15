@@ -1,0 +1,17 @@
+{ "name": "simplelogger"
+, "description": "Simple logging artifact for Node.js applications"
+, "keywords": [ "logging", "log", "nodejs", "javascript" ]
+, "version": "0.0.1"
+, "author": "Germán S. Arduino <gsa@arsol.net> (http://www.arduinosoftware.com)"
+, "repository": { "type": "git", "url": "git://github.com/garduino/SimpleLogger.git" }
+, "main": "./lib/simplelogger.js"
+, "engines": { "node": ">= 0.6.0 && < 0.13.0" }
+, "scripts": {
+    "test": "simpleunit test"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "simpleunit": "0.0.7"
+  }
+}
