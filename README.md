@@ -1,7 +1,7 @@
 # SimpleLogger
 SimpleLogger for nodejs
 
-Sample Output
+Sample Output:
 ---------------------------------------------------------------------
    SimpleLogger started at Mon May 15 2017 23:13:11 GMT-0300 (ART)
 ---------------------------------------------------------------------
@@ -13,4 +13,4 @@ Mon May 15 2017 23:13:11 GMT-0300 (ART)   One more message to be logged
    SimpleLogger ended at Mon May 15 2017 23:13:11 GMT-0300 (ART)
 ---------------------------------------------------------------------
 
-More Documentation is coming!
+More documentation is coming!
