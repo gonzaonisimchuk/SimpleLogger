@@ -1,5 +1,9 @@
 # SimpleLogger
+
 SimpleLogger for nodejs
+
+For examples of use see example.js.
+
 
 Sample Output:
 ```---------------------------------------------------------------------
@@ -14,4 +18,3 @@ Sample Output:
     SimpleLogger ended at Mon May 15 2017 23:13:11 GMT-0300 (ART)
    ---------------------------------------------------------------------```
 
-More documentation is coming!
