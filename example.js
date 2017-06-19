@@ -1,7 +1,7 @@
 var simplelogger = require('./lib/simplelogger');
 
 // For start the loging process
-simplelogger.createLogFile();
+simplelogger.createLogFile(true);
 
 // For log a message
 simplelogger.logMessage("I want to log this message!");
