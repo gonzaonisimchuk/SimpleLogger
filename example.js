@@ -1,13 +1,12 @@
-var simplelogger = require('./lib/simplelogger');
+const simplelogger = require('./lib/simplelogger');
 
 // For start the loging process
-simplelogger.createLogFile(true);
+simplelogger.createLogFile(true, "log\\");
 
 // For log a message
 simplelogger.logMessage("I want to log this message!");
 simplelogger.logMessage("Another message here");
 simplelogger.logMessage("One more message to be logged");
-
 
 // For log a separator line
 simplelogger.logSeparator();
